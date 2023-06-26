@@ -61,6 +61,12 @@
                 <h2 id="judul"><b>Luas Bangun Datar</b></h2>
             </div>
         </div>
+        <div class="card" id="carddatar">
+            <a href="kdatar.php"><img src="img/bangundatar.png"></a>
+            <div class="container">
+                <h2 id="judul"><b>Keliling Bangun Datar</b></h2>
+            </div>
+        </div>
         <div class="card" id="cardruang">
             <a href="ruang.php"><img src="img/bangunruang.jpg"></a>
             <div class="container">

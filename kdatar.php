@@ -52,9 +52,9 @@
 
 
     <center>
-        <h2 class="luas"> Luas Bangun Datar</h2>
+        <h2 class="luas"> Keliling Bangun Datar</h2>
         <br>
-        <button id="kll" ><a href="kdatar.php">Keliling</a></button>
+        <button id="kll" ><a href="datar.php">Luas</a></button>
     </center>
 
 
@@ -66,7 +66,7 @@
             <img src="img/persegi.png" id="navigasi" class="persegi">
             <div class="container">
                 <h3 class="persegi"><b>Persegi</b></h3>
-                <h5>Rumus = Sisi X Sisi</h5>
+                <h5>Rumus = 4 X Sisi</h5>
             </div>
             <div id="hitungluaspersegi"><br>
                 <div>
@@ -74,7 +74,7 @@
                     <input type="number" class="sisi1">
                 </div>
                 <div>
-                    <button type="button" class="cmdLPersegi">Hitung Luas</button>
+                    <button type="button" class="cmdLPersegi">Hitung Keliling</button>
                 </div>
                 <div id="hasilPersegi">HASIL</div>
             </div>
@@ -85,7 +85,7 @@
             <img src="img/ppanjang.png" id="navigasi" class="persegipanjang">
             <div class="container">
                 <h3 class="persegipanjang"><b>Persegi Panjang</b></h3>
-                <h5>Rumus = Panjang X Lebar</h5>
+                <h5>Rumus = 2 X (Panjang + Lebar)</h5>
             </div>
             <div id="hitungluaspersegipanjang"><br>
                 <div>
@@ -97,7 +97,7 @@
                     <input type="number" class="lebar">
                 </div>
                 <div>
-                    <button type="button" class="cmdLPPanjang">Hitung Luas</button>
+                    <button type="button" class="cmdLPPanjang">Hitung Keliling</button>
                 </div>
                 <div id="hasilPPanjang">HASIL</div>
             </div>
@@ -109,19 +109,23 @@
             <img src="img/segitiga.png" id="navigasi" class="segitiga">
             <div class="container">
                 <h3 class="segitiga"><b>Segitiga</b></h3>
-                <h5>Rumus = 1/2 X Alas X Tinggi</h5>
+                <h5>Rumus = Sisi + Sisi + Sisi</h5>
             </div>
             <div id="hitungluassegitiga"><br>
                 <div>
-                    Nilai Alas
+                    Nilai a
                     <input type="number" class="alas">
                 </div>
                 <div>
-                    Nilai Tinggi
+                    Nilai b
                     <input type="number" class="tinggi">
                 </div>
                 <div>
-                    <button type="button" class="cmdLSegi3">Hitung Luas</button>
+                    Nilai c
+                    <input type="number" class="sisib">
+                </div>
+                <div>
+                    <button type="button" class="cmdLSegi3">Hitung Keliling</button>
                 </div>
                 <div id="hasilSegi3">HASIL</div>
             </div>
@@ -133,19 +137,19 @@
             <img src="img/jajargenjang.png" id="navigasi" class="jajargenjang">
             <div class="container">
                 <h3 class="jajargenjang"><b>Jajargenjang</b></h3>
-                <h5>Rumus = Alas X Tinggi</h5>
+                <h5>Rumus = 2 X (Sisi miring + Sisi sejajar)</h5>
             </div>
             <div id="hitungluasjajargenjang"><br>
                 <div>
-                    Nilai Alas
+                    Nilai Sisi Miring
                     <input type="number" class="alas1">
                 </div>
                 <div>
-                    Nilai Tinggi
+                    Nilai Sisi Sejajar(atas/bawah)
                     <input type="number" class="tinggi1">
                 </div>
                 <div>
-                    <button type="button" class="cmdLjajargenjang">Hitung Luas</button>
+                    <button type="button" class="cmdLjajargenjang">Hitung Keliling</button>
                 </div>
                 <div id="hasiljajargenjang">HASIL</div>
             </div>
@@ -157,19 +161,19 @@
             <img src="img/layang.png" id="navigasi" class="layang">
             <div class="container">
                 <h3 class="layang"><b>Layang-layang</b></h3>
-                <h5>Rumus = 1/2 X D1 X D2</h5>
+                <h5>Rumus = 2 X (Sisi Panjang(a) + Sisi Pendek(b))</h5>
             </div>
             <div id="hitungluaslayang"><br>
                 <div>
-                    Nilai Diagonal 1
+                    Nilai Sisi Panjang(a)
                     <input type="number" class="d1">
                 </div>
                 <div>
-                    Nilai Diagonal 2
+                    Nilai Sisi Pendek(b)
                     <input type="number" class="d2">
                 </div>
                 <div>
-                    <button type="button" class="cmdLlayang">Hitung Luas</button>
+                    <button type="button" class="cmdLlayang">Hitung Keliling</button>
                 </div>
                 <div id="hasillayang">HASIL</div>
             </div>
@@ -181,20 +185,24 @@
             <img src="img/trapesium.png" id="navigasi" class="trapesium">
             <div class="container">
                 <h3 class="trapesium"><b>Trapesium</b></h3>
-                <h5>Rumus = 1/2 X (P Atas + P Bawah) X Tinggi</h5>
+                <h5>Rumus = Sisi a + b + c + d</h5>
             </div>
             <div id="hitungluastrapesium"><br>
                 <div>
-                    Panjang Atas
+                    Sisi a
                     <input type="number" class="atas">
                 </div>
                 <div>
-                    Panjang Bawah
+                    Sisi b
                     <input type="number" class="bawah">
                 </div>
                 <div>
-                    Tinggi <br>
+                    Sisi c
                     <input type="number" class="tinggitrapes">
+                </div>
+                <div>
+                    Sisi d
+                    <input type="number" class="sisid">
                 </div>
                 <div>
                     <button type="button" class="cmdLtrapesium">Hitung Luas</button>
@@ -234,7 +242,7 @@
                 $("#hitungluasjajargenjang").hide(500);
                 $("#hitungluaslayang").hide(500);
                 $("#hitungluastrapesium").hide(500);
-                judul = "Hitung Luas Persegi"
+                judul = "Hitung Keliling Persegi"
                 $("h2").html(judul);
             });
 
@@ -246,7 +254,7 @@
                 $("#hitungluasjajargenjang").hide(500);
                 $("#hitungluaslayang").hide(500);
                 $("#hitungluastrapesium").hide(500);
-                judul = "Hitung Luas Persegi Panjang"
+                judul = "Hitung Keliling Persegi Panjang"
                 $("h2").html(judul);
             });
 
@@ -258,7 +266,7 @@
                 $("#hitungluasjajargenjang").hide(500);
                 $("#hitungluaslayang").hide(500);
                 $("#hitungluastrapesium").hide(500);
-                judul = "Hitung Luas Segitiga"
+                judul = "Hitung Keliling Segitiga"
                 $("h2").html(judul);
             });
 
@@ -270,7 +278,7 @@
                 $("#hitungluasjajargenjang").show(1000);
                 $("#hitungluaslayang").hide(500);
                 $("#hitungluastrapesium").hide(500);
-                judul = "Hitung Luas Jajargenjang"
+                judul = "Hitung Keliling Jajargenjang"
                 $("h2").html(judul);
             });
 
@@ -282,7 +290,7 @@
                 $("#hitungluasjajargenjang").hide(500);
                 $("#hitungluaslayang").show(1000);
                 $("#hitungluastrapesium").hide(500);
-                judul = "Hitung Luas Layang-layang"
+                judul = "Hitung Keliling Layang-layang"
                 $("h2").html(judul);
             });
 
@@ -294,7 +302,7 @@
                 $("#hitungluasjajargenjang").hide(500);
                 $("#hitungluaslayang").hide(500);
                 $("#hitungluastrapesium").show(1000);
-                judul = "Hitung Luas Trapesium"
+                judul = "Hitung Keliling Trapesium"
                 $("h2").html(judul);
             });
 
@@ -309,12 +317,11 @@
                 //input nilai
                 let S1 = $(".sisi1").val();
                 //proses
-                let Hasil = S1*S1;
+                let Hasil = 4*S1;
                 //output hasil
-                let tx = "Hasil : <br> Luas Persegi dengan <br> Sisi : "+S1;
-                tx += " adalah <br> Luas = Sisi X Sisi <br>";
-                tx += "= "+S1+" X "+S1;
-                tx += "<br>= "+Hasil+"<br><b> Jadi luasnya adalah "+Hasil;
+                let tx = "Hasil : <br> Keliling Persegi dengan <br> Sisi : "+S1;
+                tx += "<br>= 4 X "+S1;
+                tx += "<br>= "+Hasil+"<br><b> Jadi Kelilingnya adalah "+Hasil;
 
                 $("#hasilPersegi").html(tx);
                 $("#hasilPersegi").show(1500);
@@ -326,12 +333,11 @@
                 let P = $(".panjang").val();
                 let L = $(".lebar").val();
                 //proses
-                let Hasil = P*L;
+                let Hasil = 2*(parseInt(P)+parseInt(L));
                 //output hasil
-                let tx = "Hasil : <br> Luas Persegi Panjang dengan <br> Panjang : "+P+"<br>Lebar : "+L;
-                tx += " adalah <br> Luas = Panjang X Lebar <br>";
-                tx += "= "+P+" X "+L;
-                tx += "<br>= "+Hasil+"<br><b> Jadi luasnya adalah "+Hasil;
+                let tx = "Hasil : <br> Keliling Persegi Panjang dengan <br> Panjang : "+P+"<br>Lebar : "+L;
+                tx += "<br>= 2 X("+P+" + "+L+")";
+                tx += "<br>= "+Hasil+"<br><b> Jadi Kelilingnya adalah "+Hasil;
 
                 $("#hasilPPanjang").html(tx);
                 $("#hasilPPanjang").show(1500);
@@ -342,13 +348,13 @@
                 //input nilai
                 let A = $(".alas").val();
                 let T = $(".tinggi").val();
+                let SB = $(".sisib").val();
                 //proses
-                let Hasil = 1/2*A*T;
+                let Hasil = parseInt(A)+parseInt(T)+parseInt(SB);
                 //output hasil
-                let tx = "Hasil : <br> Luas Segitiga dengan <br> Alas : "+A+"<br>Tinggi : "+T;
-                tx += " adalah <br> Luas = 1/2 X Alas X Tinggi <br>";
-                tx += "= 1/2 X "+A+" X "+T;
-                tx += "<br>= "+Hasil+"<br><b> Jadi luasnya adalah "+Hasil;
+                let tx = "Hasil : <br> Keliling Segitiga dengan <br> Sisi a : "+A+" Sisi b : "+T+" Sisi c"+SB;
+                tx += "<br>= "+A+" + "+T+" + "+SB;
+                tx += "<br>= "+Hasil+"<br><b> Jadi Kelilingnya adalah "+Hasil;
     
                 $("#hasilSegi3").html(tx);
                 $("#hasilSegi3").show(1500)
@@ -360,12 +366,11 @@
                 let A1 = $(".alas1").val();
                 let T1 = $(".tinggi1").val();
                 //proses
-                let Hasil = A1*T1;
+                let Hasil = 2*(parseInt(A1)+parseInt(T1));
                 //output hasil
-                let tx = "Hasil : <br> Luas Jajargenjang dengan <br> Alas : "+A1+"<br>Tinggi : "+T1;
-                tx += " adalah <br> Luas = Alas X Tinggi <br>";
-                tx += "= "+A1+" X "+T1;
-                tx += "<br>= "+Hasil+"<br><b> Jadi luasnya adalah "+Hasil;
+                let tx = "Hasil : <br> Keliling Jajargenjang dengan <br> Sisi Miring : "+A1+"<br>Sisi Sejajar : "+T1;
+                tx += "<br>= 2 X("+A1+" + "+T1+")";
+                tx += "<br>= "+Hasil+"<br><b> Jadi Kelilingnya adalah "+Hasil;
     
                 $("#hasiljajargenjang").html(tx);
                 $("#hasiljajargenjang").show(1500)
@@ -377,12 +382,11 @@
                 let D1 = $(".d1").val();
                 let D2 = $(".d2").val();
                 //proses
-                let Hasil = 1/2*D1*D2;
+                let Hasil = 2*(parseInt(D1)+parseInt(D2));
                 //output hasil
-                let tx = "Hasil : <br> Luas Layang-layang dengan <br> Diagonal 1 : "+D1+"<br>Diagonal 2 : "+D2;
-                tx += " adalah <br> Luas = 1/2 X Diagonal 1 X Diagonal 2 <br>";
-                tx += "= 1/2 X "+D1+" X "+D2;
-                tx += "<br>= "+Hasil+"<br><b> Jadi luasnya adalah "+Hasil;
+                let tx = "Hasil : <br> Keliling Layang-layang dengan <br> Sisi Panjang(a) : "+D1+"<br>Sisi Pendek(b) : "+D2;
+                tx += "<br>= 2 X("+D1+" + "+D2+")";
+                tx += "<br>= "+Hasil+"<br><b> Jadi Kelilingnya adalah "+Hasil;
     
                 $("#hasillayang").html(tx);
                 $("#hasillayang").show(1500)
@@ -394,13 +398,13 @@
                 let B1 = $(".bawah").val();
                 let A2 = $(".atas").val();
                 let TT = $(".tinggitrapes").val();
+                let SD = $(".sisid").val();
                 //proses
-                let Hasil = 1/2*(parseInt(B1)+parseInt(A2))*TT;
+                let Hasil = parseInt(B1)+parseInt(A2)+parseInt(TT)+parseInt(SD);
                 //output hasil
-                let tx = "Hasil : <br> Luas Trapesium dengan <br> Panjang Bawah : "+B1+"<br>Panjang Atas : "+A2+"<br>Tinggi : "+TT;
-                tx += " adalah <br> Luas = 1/2 X (Panjang Bawah + Panjang Atas) X Tinggi <br>";
-                tx += "= 1/2 X ("+B1+" + "+A2+") X "+TT;
-                tx += "<br>= "+Hasil+"<br><b> Jadi luasnya adalah "+Hasil;
+                let tx = "Hasil : <br> Keliling Trapesium dengan <br> Sisi a : "+B1+"<br>Sisi b : "+A2+"<br>Sisi c : "+TT+"<br>Sisi d : "+SD;
+                tx += "<br>= "+B1+" + "+A2+" + "+TT+" + "+SD+" + ";
+                tx += "<br>= "+Hasil+"<br><b> Jadi Kelilingnya adalah "+Hasil;
     
                 $("#hasiltrapesium").html(tx);
                 $("#hasiltrapesium").show(1500)
