@@ -2,7 +2,7 @@ Ide Project UAS :
 
 Pada awalnya saya berencana untuk membuat sebuah web yang berisikan informasi tentang lagu-lagu yang saya suka, namun menurut saya web itu tidak terlalu berguna untuk orang lain sehingga saya memutuskan untuk mengubah konsep atau isi dari web menjadi web yang berisikan rumus sederhana untuk membantu adik sepupu saya yang masih sd.
 
-Awalnya saya hanya ingin mengisi rumus luas bangun datar dan juga operasi hitungan dasar, namun saya  coba-coba dan melihat berbagai referensi untuk membuat konversi suhu yang ada pada fisika(C R K F). Web yang saya buat ini bernama A-Count yang diambil dari awal nama saya yaitu huruf A dan count yang berarti menghitung, web ini memerlukan regis dan login terlebih dahulu yang datanya akan disimpan pada database menggunakan sql.
+Awalnya saya hanya ingin mengisi rumus luas bangun datar dan juga operasi hitungan dasar, namun saya  coba-coba dan melihat berbagai referensi untuk membuat konversi suhu yang ada pada fisika(C R K F) dan membuat ini yang memakan waktu lumayan lama. Web yang saya buat ini bernama A-Count yang diambil dari awal nama saya yaitu huruf A dan count yang berarti menghitung, web ini memerlukan regis dan login terlebih dahulu yang datanya akan disimpan pada database menggunakan sql.
 
 Pada bagian bangun datar, saya belum mengisi lingkaran karena masih bingung karena lingkarang menggunakan 2 kondisi yakni phi=22/7(apabila jari-jarinya kelipatan 7) dan phi=3,14(apabila jari-jarinya tidak kelipatan 7). Dan juga bagian bangun ruang belum saya kembangkan.
 
