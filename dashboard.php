@@ -58,13 +58,13 @@
         <div class="card" id="carddatar">
             <a href="datar.php"><img src="img/bangundatar.png"></a>
             <div class="container">
-                <h2 id="judul"><b>Bangun Datar</b></h2>
+                <h2 id="judul"><b>Luas Bangun Datar</b></h2>
             </div>
         </div>
         <div class="card" id="cardruang">
             <a href="ruang.php"><img src="img/bangunruang.jpg"></a>
             <div class="container">
-                <h2 id="judul"><b>Bangun Ruang</b></h2>
+                <h2 id="judul"><b>Luas Bangun Ruang</b></h2>
             </div>
         </div>
         <div class="card" id="cardsuhu">
